@@ -22,7 +22,8 @@
   </dependencies>
   <build>
     <finalName>sysfoo</finalName>
-    <plugin>
+    <plugins>
+    	<plugin>
 	     <groupId>org.jacoco</groupId>
 	     <artifactId>jacoco-maven-plugin</artifactId>
 	     <version>0.7.9</version>
@@ -41,6 +42,7 @@
 			</goals>
 		</execution>
 	    </executions>
-    </plugin>
+        </plugin>
+     </plugins>
   </build>
 </project>
